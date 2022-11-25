@@ -15,7 +15,7 @@ public class Triangulo implements FiguraGeometrica {
 
     @Override
     public String toString() {
-        return "Área: " + this.getClass().getSimpleName() + ": (L*L)/2";
+        return "Área: " + this.getClass().getSimpleName() + ": (lado*lado)/2";
     }
 
 }
